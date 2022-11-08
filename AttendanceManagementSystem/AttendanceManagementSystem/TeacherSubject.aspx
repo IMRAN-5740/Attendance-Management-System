@@ -46,6 +46,7 @@
                     <asp:ListItem Value="1">First Year</asp:ListItem>
                     <asp:ListItem Value="2">Second Year</asp:ListItem>
                     <asp:ListItem Value="3">Third Year</asp:ListItem>
+                    <asp:ListItem Value="4">Final Year</asp:ListItem>
                 </asp:DropDownList>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
                     ErrorMessage="Select of Year" ControlToValidate="DropDownList3" ForeColor="Red">*</asp:RequiredFieldValidator>
@@ -55,9 +56,8 @@
             <td>
              <b>Semester: &nbsp;&nbsp;&nbsp;</b></td>
             <td>
-                <asp:DropDownList ID="DropDownList5" runat="server" AutoPostBack="True" 
-                    Height="40px" Width="197px" 
-                    onselectedindexchanged="DropDownList5_SelectedIndexChanged">
+                <asp:DropDownList ID="DropDownList5" runat="server" AutoPostBack="True"
+                    Height="40px" Width="197px" OnSelectedIndexChanged="DropDownList5_SelectedIndexChanged">
                     <asp:ListItem Value="0" >Select Semester</asp:ListItem>
                 </asp:DropDownList>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
@@ -67,7 +67,9 @@
          </tr>
         <tr>
             <td>
-                <b>Subject: &nbsp;&nbsp;&nbsp;</b></td>
+                <b>Subject: &nbsp;&nbsp;&nbsp;</b>
+
+            </td>
             <td>
                 <asp:DropDownList ID="DropDownList4" runat="server" AutoPostBack="True" 
                     Height="40px" Width="197px">
@@ -78,8 +80,8 @@
         </tr>
         <tr>
             <td colspan="2" align="center">
-                <asp:Button ID="Button1" runat="server" Text="Add" Font-Bold="True" 
-                    Height="47px" Width="86px" onclick="Button1_Click" />
+                <asp:Button ID="Button1" runat="server" Text="Add" Font-Bold="True"
+                    Height="47px" Width="86px" OnClick="Button1_Click" />
                     
                    </td>
             

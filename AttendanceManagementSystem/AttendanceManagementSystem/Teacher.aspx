@@ -15,7 +15,7 @@
         </tr>
         <tr>
             <td>
-                <b>Fist Name: &nbsp;&nbsp;&nbsp;</b></td>
+                <b>First Name: &nbsp;&nbsp;&nbsp;</b></td>
             <td>
                 <asp:TextBox ID="TextBox2" runat="server" Width="197px" Height="41px" 
                     CausesValidation="True" placeholder="Teacher's First Name"></asp:TextBox>
