@@ -61,3 +61,13 @@ E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementS
 E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\EntityFramework.SqlServer.dll
 E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\EntityFramework.xml
 E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Antlr3.Runtime.dll
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Iesi.Collections.dll
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\NHibernate.dll
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Remotion.Linq.dll
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Remotion.Linq.EagerFetching.dll
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Antlr3.Runtime.xml
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Iesi.Collections.xml
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\NHibernate.xml
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Remotion.Linq.xml
+E:\Attendance Management System\AttendanceManagementSystem\AttendanceManagementSystem\bin\Remotion.Linq.EagerFetching.xml

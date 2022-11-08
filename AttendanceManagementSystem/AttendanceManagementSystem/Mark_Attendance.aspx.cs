@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NHibernate.Mapping;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -96,6 +97,7 @@ namespace AttendanceManagementSystem
 
                 SqlConnection con1 = new SqlConnection(str);
                 con1.Open();
+                
                 SqlCommand cmd1 = new SqlCommand("insert into T_Lectures(TID,TName,Date,LTaken,Course,Year,Subject,Sem) values(@1,@2,@3,@4,@5,@6,@7,@8)", con1);
                 cmd1.Parameters.AddWithValue("@1", Session["TeacherID"]);
                 cmd1.Parameters.AddWithValue("@2", Session["TeacherName"]);
