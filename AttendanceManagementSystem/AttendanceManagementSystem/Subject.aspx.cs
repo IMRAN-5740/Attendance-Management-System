@@ -117,6 +117,8 @@ namespace AttendanceManagementSystem
                 con1.Close();
                 Label1.Text = "Subject added successfully";
                 Label1.ForeColor = System.Drawing.Color.Green;
+                
+               // GridShow();
                 clear();
             }
         }

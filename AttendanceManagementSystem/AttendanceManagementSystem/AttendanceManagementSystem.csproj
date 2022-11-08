@@ -83,6 +83,8 @@
     <Content Include="Login.aspx" />
     <Content Include="Student.aspx" />
     <Content Include="Subject.aspx" />
+    <Content Include="Teacher.aspx" />
+    <Content Include="TeacherSubject.aspx" />
     <Content Include="Teacher_Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -132,6 +134,20 @@
     </Compile>
     <Compile Include="Subject.aspx.designer.cs">
       <DependentUpon>Subject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher.aspx.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teacher.aspx.designer.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherSubject.aspx.cs">
+      <DependentUpon>TeacherSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeacherSubject.aspx.designer.cs">
+      <DependentUpon>TeacherSubject.aspx</DependentUpon>
     </Compile>
     <Compile Include="Teacher_Home.aspx.cs">
       <DependentUpon>Teacher_Home.aspx</DependentUpon>
