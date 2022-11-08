@@ -142,6 +142,13 @@
     <Compile Include="Teacher.aspx.designer.cs">
       <DependentUpon>Teacher.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TeacherMaster.Master.cs">
+      <DependentUpon>TeacherMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeacherMaster.Master.designer.cs">
+      <DependentUpon>TeacherMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="TeacherSubject.aspx.cs">
       <DependentUpon>TeacherSubject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -160,6 +167,7 @@
   <ItemGroup>
     <Content Include="Admin.Master" />
     <None Include="packages.config" />
+    <Content Include="TeacherMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
