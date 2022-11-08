@@ -100,10 +100,13 @@
     <Content Include="Login.aspx" />
     <Content Include="Mark_Attendance.aspx" />
     <Content Include="Student.aspx" />
+    <Content Include="Student_Defaulter.aspx" />
+    <Content Include="Student_Home.aspx" />
     <Content Include="Subject.aspx" />
     <Content Include="Teacher.aspx" />
     <Content Include="TeacherSubject.aspx" />
     <Content Include="Teacher_Home.aspx" />
+    <Content Include="Teacher_Lectures.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +156,27 @@
     <Compile Include="Student.aspx.designer.cs">
       <DependentUpon>Student.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Student.Master.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student.Master.designer.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Defaulter.aspx.cs">
+      <DependentUpon>Student_Defaulter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_Defaulter.aspx.designer.cs">
+      <DependentUpon>Student_Defaulter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Home.aspx.cs">
+      <DependentUpon>Student_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_Home.aspx.designer.cs">
+      <DependentUpon>Student_Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Subject.aspx.cs">
       <DependentUpon>Subject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -188,11 +212,19 @@
     <Compile Include="Teacher_Home.aspx.designer.cs">
       <DependentUpon>Teacher_Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Teacher_Lectures.aspx.cs">
+      <DependentUpon>Teacher_Lectures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teacher_Lectures.aspx.designer.cs">
+      <DependentUpon>Teacher_Lectures.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.Master" />
     <None Include="packages.config" />
     <Content Include="TeacherMaster.Master" />
+    <Content Include="Student.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

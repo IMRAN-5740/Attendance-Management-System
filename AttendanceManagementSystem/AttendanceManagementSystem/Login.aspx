@@ -20,7 +20,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" align="center">
-                        <h2>Teacher and Admin Login</h2>
+                        <h2>Teacher,Student and Admin Login</h2>
                     </td>
                 </tr>
                 <tr>

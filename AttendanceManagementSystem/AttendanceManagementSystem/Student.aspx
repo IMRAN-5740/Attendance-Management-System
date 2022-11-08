@@ -43,13 +43,13 @@
              <b>Roll_No: &nbsp;&nbsp;&nbsp;</b></td>
             <td>
                <asp:TextBox ID="TextBox4" runat="server" Width="197px" Height="41px" 
-                    TextMode="Number" placeholder="Student Roll_No."></asp:TextBox>
+                     placeholder="Student Roll_No."></asp:TextBox>
                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
                         ControlToValidate="TextBox4" ErrorMessage="Roll No. is empty" 
                     ForeColor="Red" >*</asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" 
+                    <%--<asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" 
                         ControlToValidate="TextBox4" ErrorMessage="Invalid Roll Number" 
-                        ForeColor="Red" ValidationExpression="[0-9]{2}">*</asp:RegularExpressionValidator>
+                        ForeColor="Red" ValidationExpression="[0-9]{2}">*</asp:RegularExpressionValidator>--%>
                </td>  
                
         </tr>
@@ -80,7 +80,9 @@
                </td>  
                
         </tr>
-        <tr>
+
+       
+            <tr>
             <td>
              <b>Course: &nbsp;&nbsp;&nbsp;</b></td>
             <td>
@@ -121,6 +123,22 @@
                     ForeColor="Red" >*</asp:RequiredFieldValidator>
              </td>
          </tr>
+
+             <tr>
+                <td>
+                 <b>Password: &nbsp;&nbsp;&nbsp;</b></td>
+                <td>
+                   <asp:TextBox ID="TextBox6" runat="server" Width="197px" Height="41px" 
+                        TextMode="Password" placeholder="Student Password."></asp:TextBox>
+                   <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" 
+                            ControlToValidate="TextBox6" ErrorMessage="*Password is empty" 
+                        ForeColor="Red" >*</asp:RequiredFieldValidator>
+                        <%--<asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" 
+                            ControlToValidate="TextBox6" ErrorMessage="Invalid Phone Number" 
+                            ForeColor="Red" ValidationExpression="[0-9]{10}">*</asp:RegularExpressionValidator>--%>
+                   </td>  
+               
+            </tr>
          
         <tr>
             <td colspan="2" align="center">
