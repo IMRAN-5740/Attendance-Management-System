@@ -56,12 +56,14 @@
                 <asp:TextBox ID="TextBox1" runat="server" Width="197px" Height="41px" 
                     TextMode="Password" placeholder="Teacher Password"></asp:TextBox></td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
-                        ControlToValidate="TextBox1" ErrorMessage="Password is empty" ForeColor="Red">*</asp:RequiredFieldValidator>
+                        ControlToValidate="TextBox1" ErrorMessage="Password is empty" ValidationGroup="one" ForeColor="Red">*</asp:RequiredFieldValidator>
         </tr>
         <tr>
             <td colspan="2" align="center">
                 <asp:Button ID="Button1" runat="server" Text="Add" Font-Bold="True"
-                    Height="47px" Width="96px" Font-Size="Medium" OnClick="Button1_Click" /></td>
+                    Height="47px" Width="96px" Font-Size="Medium" OnClick="Button1_Click" />
+
+            </td>
             
         </tr> 
 
@@ -72,7 +74,7 @@
         </tr>
         <tr>
         <td colspan="2">
-            <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />
+            <asp:ValidationSummary ID="ValidationSummary1" ValidationGroup="one" runat="server" ForeColor="Red" />
         </td>
         </tr>
         <tr>
